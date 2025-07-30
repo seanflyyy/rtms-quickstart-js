@@ -10,19 +10,13 @@ This simple app demonstrates integration with the [Zoom Realtime Media Streams S
 The SDK is already included in package dependencies. Install other dependencies:
 
 ```bash
-npm install
+npm install @zoom/rtms
 ```
 
 ## ⚙️ Configuration
 
-Copy the example environment file and fill in your credentials:
-
-```bash
-cp .env.example .env
-```
-
 Set your Zoom OAuth credentials:
-```bash
+```.env
 ZM_RTMS_CLIENT=your_client_id
 ZM_RTMS_SECRET=your_client_secret
 ```
